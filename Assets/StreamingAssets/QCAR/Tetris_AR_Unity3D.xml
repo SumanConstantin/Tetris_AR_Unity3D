@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="level" size="1.000000 1.000000"/>
+        <ImageTarget name="controller.Left" size="1.299000 0.827000"/>
+        <ImageTarget name="controller.Back" size="1.122000 0.827000"/>
+        <ImageTarget name="controller.Right" size="1.299000 0.827000"/>
+        <ImageTarget name="controller.Front" size="1.122000 0.827000"/>
+        <MultiTarget name="controller">
+            <Part name="controller.Left" translation="-0.5609999895095825 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="controller.Right" translation="0.5609999895095825 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="controller.Front" translation="0 0 0.6495000123977661" rotation="AD: 1 0 0 0"/>
+            <Part name="controller.Back" translation="0 0 -0.6495000123977661" rotation="AD: 0 1 0 180"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
